@@ -86,5 +86,5 @@ run_analysis <- function(){
     output <- output[order(output$subject,output$act.code),]
 
     # write Output to disk
-    write.table(output,"output.csv",row.names=FALSE,sep=",")
+    write.table(output,"output.txt",row.names=FALSE)
 }
