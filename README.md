@@ -32,7 +32,7 @@ This is how this script works.
 
 * Load the row labels (subject and activity code)
 * Load the column labels (features)
-* Find the indices of the mean and standard deviation features by grep'ing for mean() and std()
+* Extract the indices of the mean and standard deviation features by grep'ing for mean() and std()
 * Create column type vector where index postion of mean and std are of 'numeric' type
 * Map activity codes to activity names
 * Load data set with read.table while only loading the mean and std columns
