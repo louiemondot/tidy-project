@@ -10,38 +10,29 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+* tBodyAcc-XYZ
+* tGravityAcc-XYZ
+* tBodyAccJerk-XYZ
+* tBodyGyro-XYZ
+* tBodyGyroJerk-XYZ
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
 
-The set of variables that were estimated from these signals and extracting for this tidy project include: 
+The set of variables that were estimated from these signals and extracted for this tidy project include measurements only for: 
 
-mean(): Mean value
-std(): Standard deviation
+* mean(): Mean value
+* std(): Standard deviation
 
 The tidy data set will include the descriptive activity names rather than only the activity code.  The variable names are appropriately renamed by replacing trailing "()" with blank and "()-" replace with ".".  Lastly, the script will create a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
-Example:
-
-subject	act.code	activity			avg.tBodyAcc.mean.X
-1		1			WALKING				0.277330759
-1		2			WALKING_UPSTAIRS	0.25546169
-1		3			WALKING_DOWNSTAIRS	0.28918832
-1		4			SITTING				0.261237565
-1		5			STANDING			0.278917629
-1		6			LAYING				0.221598244
 
